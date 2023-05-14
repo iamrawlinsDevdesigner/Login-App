@@ -1,0 +1,380 @@
+body {
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a {
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited {
+   color: #800080;
+}
+a:active {
+   color: #FF0000;
+}
+a:hover {
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus,
+textarea:focus,
+select:focus {
+   outline: none;
+}
+#wb_LayoutGrid1 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   clear: both;
+   display: table;
+   margin: 20px 0px 20px 0px;
+   position: relative;
+   table-layout: fixed;
+   text-align: center;
+   width: 100%;
+}
+#LayoutGrid1 {
+   box-sizing: border-box;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0px 10px 0px 10px;
+}
+#LayoutGrid1 > .row {
+   margin-left: -10px;
+   margin-right: -10px;
+}
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2,
+#LayoutGrid1 > .row > .col-3 {
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-left: 10px;
+   padding-right: 10px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2,
+#LayoutGrid1 > .row > .col-3 {
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   text-align: left;
+   width: 33.33333333%;
+}
+#LayoutGrid1 > .row > .col-2 {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 3px;
+   text-align: left;
+   width: 33.33333333%;
+}
+#LayoutGrid1 > .row > .col-2 > .col-2-padding {
+   box-sizing: border-box;
+   padding: 20px 10px 20px 10px;
+   width: 100%;
+}
+#LayoutGrid1 > .row > .col-3 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   text-align: left;
+   width: 33.33333333%;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after {
+   content: " ";
+   display: table;
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after {
+   clear: both;
+}
+@media (max-width: 480px) {
+#LayoutGrid1 > .row > .col-1,
+#LayoutGrid1 > .row > .col-2,
+#LayoutGrid1 > .row > .col-3 {
+   float: none;
+   width: 100%  !important;
+}
+}
+#wb_signupform {
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   clear: both;
+   display: table;
+   margin: 0;
+   position: relative;
+   table-layout: fixed;
+   text-align: center;
+   width: 100%;
+}
+#signupform {
+   box-sizing: border-box;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0;
+}
+#signupform > .row {
+   margin-left: 0;
+   margin-right: 0;
+}
+#signupform > .row > .col-1 {
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-left: 0px;
+   padding-right: 0px;
+   position: relative;
+}
+#signupform > .row > .col-1 {
+   float: left;
+}
+#signupform > .row > .col-1 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   text-align: left;
+   width: 100%;
+}
+#signupform > .row > .col-1 > .col-1-padding {
+   box-sizing: border-box;
+   padding: 10px 10px 10px 10px;
+   width: 100%;
+}
+#signupform:before,
+#signupform:after,
+#signupform .row:before,
+#signupform .row:after {
+   content: " ";
+   display: table;
+}
+#signupform:after,
+#signupform .row:after {
+   clear: both;
+}
+@media (max-width: 480px) {
+#signupform > .row > .col-1 {
+   float: none;
+   width: 100%  !important;
+}
+}
+#Button1 {
+   -webkit-appearance: none;
+   background-color: #004AFF;
+   background-image: none;
+   border: 1px solid #004AFF;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   margin: 8px 10px 10px 10px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+}
+#fullname {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   box-sizing: border-box;
+   color: #555555;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 18px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#fullname:focus {
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#username {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   box-sizing: border-box;
+   color: #555555;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 18px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#username:focus {
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#password {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   box-sizing: border-box;
+   color: #555555;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 18px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#password:focus {
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#confirmpassword {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   box-sizing: border-box;
+   color: #555555;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 18px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#confirmpassword:focus {
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#email {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   box-sizing: border-box;
+   color: #555555;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 18px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#email:focus {
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#error {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 4px;
+   box-sizing: border-box;
+   color: #FF0000;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 16px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#error:focus {
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#signup {
+   -webkit-appearance: none;
+   background-color: #3370B7;
+   background-image: none;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+}
+#fullname {
+   display: block;
+   height: 28px;
+   width: 100%;
+   z-index: 2;
+}
+#username {
+   display: block;
+   height: 28px;
+   width: 100%;
+   z-index: 3;
+}
+#error {
+   display: block;
+   height: 24px;
+   width: 100%;
+   z-index: 7;
+}
+#confirmpassword {
+   display: block;
+   height: 28px;
+   width: 100%;
+   z-index: 5;
+}
+#email {
+   display: block;
+   height: 28px;
+   width: 100%;
+   z-index: 6;
+}
+#signup {
+   display: inline-block;
+   height: 24px;
+   width: 97px;
+   z-index: 8;
+}
+#password {
+   display: block;
+   height: 28px;
+   width: 100%;
+   z-index: 4;
+}
+#Button1 {
+   display: inline-block;
+   height: 37px;
+   width: 91px;
+   z-index: 0;
+}
